@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="401.0" prefWidth="521.0">
+         <children>
+            <ImageView fx:id="imgImage" fitHeight="255.0" fitWidth="366.0" layoutX="78.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="load" layoutX="69.0" layoutY="337.0" mnemonicParsing="false" onAction="#uploadImage" text="Load Image" />
+            <Label layoutX="204.0" layoutY="6.0" text="Route Finder">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="plot" layoutX="160.0" layoutY="337.0" mnemonicParsing="false" onAction="#addSignificantNodes" text="Plot Significant Points" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

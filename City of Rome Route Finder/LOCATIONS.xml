@@ -1,0 +1,176 @@
+<object-stream>
+  <list>
+    <sample.GraphNodeAL2>
+      <data class="sample.Landmark">
+        <landmarkName>Spanish Steps</landmarkName>
+        <historicalSignificance>4</historicalSignificance>
+        <starRating>3</starRating>
+        <X>481</X>
+        <Y>171</Y>
+      </data>
+      <nodeValue>2147483647</nodeValue>
+      <adjList>
+        <sample.GraphLinkAL>
+          <destNode>
+            <data class="sample.Landmark">
+              <landmarkName>Trevi Fountain</landmarkName>
+              <historicalSignificance>3</historicalSignificance>
+              <starRating>2</starRating>
+              <X>559</X>
+              <Y>328</Y>
+            </data>
+            <nodeValue>2147483647</nodeValue>
+            <adjList>
+              <sample.GraphLinkAL>
+                <destNode reference="../../../../../.."/>
+                <cost>1000</cost>
+              </sample.GraphLinkAL>
+              <sample.GraphLinkAL>
+                <destNode>
+                  <data class="sample.Landmark">
+                    <landmarkName>The Pantheon</landmarkName>
+                    <historicalSignificance>5</historicalSignificance>
+                    <starRating>5</starRating>
+                    <X>512</X>
+                    <Y>359</Y>
+                  </data>
+                  <nodeValue>2147483647</nodeValue>
+                  <adjList>
+                    <sample.GraphLinkAL>
+                      <destNode reference="../../../../../.."/>
+                      <cost>4300</cost>
+                    </sample.GraphLinkAL>
+                    <sample.GraphLinkAL>
+                      <destNode>
+                        <data class="sample.Landmark">
+                          <landmarkName>Fountain of the Four Rivers</landmarkName>
+                          <historicalSignificance>2</historicalSignificance>
+                          <starRating>4</starRating>
+                          <X>357</X>
+                          <Y>351</Y>
+                        </data>
+                        <nodeValue>2147483647</nodeValue>
+                        <adjList>
+                          <sample.GraphLinkAL>
+                            <destNode reference="../../../../../.."/>
+                            <cost>900</cost>
+                          </sample.GraphLinkAL>
+                          <sample.GraphLinkAL>
+                            <destNode>
+                              <data class="sample.Landmark">
+                                <landmarkName>The Roman Forum</landmarkName>
+                                <historicalSignificance>5</historicalSignificance>
+                                <starRating>4</starRating>
+                                <X>563</X>
+                                <Y>477</Y>
+                              </data>
+                              <nodeValue>2147483647</nodeValue>
+                              <adjList>
+                                <sample.GraphLinkAL>
+                                  <destNode reference="../../../../../.."/>
+                                  <cost>7000</cost>
+                                </sample.GraphLinkAL>
+                                <sample.GraphLinkAL>
+                                  <destNode>
+                                    <data class="sample.Landmark">
+                                      <landmarkName>The Colosseum</landmarkName>
+                                      <historicalSignificance>5</historicalSignificance>
+                                      <starRating>5</starRating>
+                                      <X>652</X>
+                                      <Y>504</Y>
+                                    </data>
+                                    <nodeValue>2147483647</nodeValue>
+                                    <adjList>
+                                      <sample.GraphLinkAL>
+                                        <destNode reference="../../../../../.."/>
+                                        <cost>1900</cost>
+                                      </sample.GraphLinkAL>
+                                      <sample.GraphLinkAL>
+                                        <destNode>
+                                          <data class="sample.Landmark">
+                                            <landmarkName>Palatine Hill</landmarkName>
+                                            <historicalSignificance>2</historicalSignificance>
+                                            <starRating>3</starRating>
+                                            <X>562</X>
+                                            <Y>515</Y>
+                                          </data>
+                                          <nodeValue>2147483647</nodeValue>
+                                          <adjList>
+                                            <sample.GraphLinkAL>
+                                              <destNode reference="../../../../../.."/>
+                                              <cost>2</cost>
+                                            </sample.GraphLinkAL>
+                                            <sample.GraphLinkAL>
+                                              <destNode>
+                                                <data class="sample.Landmark">
+                                                  <landmarkName>Castle of the Holy Angel</landmarkName>
+                                                  <historicalSignificance>4</historicalSignificance>
+                                                  <starRating>2</starRating>
+                                                  <X>366</X>
+                                                  <Y>250</Y>
+                                                </data>
+                                                <nodeValue>2147483647</nodeValue>
+                                                <adjList>
+                                                  <sample.GraphLinkAL>
+                                                    <destNode reference="../../../../../.."/>
+                                                    <cost>4300</cost>
+                                                  </sample.GraphLinkAL>
+                                                  <sample.GraphLinkAL>
+                                                    <destNode>
+                                                      <data class="sample.Landmark">
+                                                        <landmarkName>People&apos;s Park</landmarkName>
+                                                        <historicalSignificance>3</historicalSignificance>
+                                                        <starRating>5</starRating>
+                                                        <X>412</X>
+                                                        <Y>90</Y>
+                                                      </data>
+                                                      <nodeValue>2147483647</nodeValue>
+                                                      <adjList>
+                                                        <sample.GraphLinkAL>
+                                                          <destNode reference="../../../../../.."/>
+                                                          <cost>7000</cost>
+                                                        </sample.GraphLinkAL>
+                                                      </adjList>
+                                                    </destNode>
+                                                    <cost>7000</cost>
+                                                  </sample.GraphLinkAL>
+                                                </adjList>
+                                              </destNode>
+                                              <cost>4300</cost>
+                                            </sample.GraphLinkAL>
+                                          </adjList>
+                                        </destNode>
+                                        <cost>2</cost>
+                                      </sample.GraphLinkAL>
+                                    </adjList>
+                                  </destNode>
+                                  <cost>1900</cost>
+                                </sample.GraphLinkAL>
+                              </adjList>
+                            </destNode>
+                            <cost>7000</cost>
+                          </sample.GraphLinkAL>
+                        </adjList>
+                      </destNode>
+                      <cost>900</cost>
+                    </sample.GraphLinkAL>
+                  </adjList>
+                </destNode>
+                <cost>4300</cost>
+              </sample.GraphLinkAL>
+            </adjList>
+          </destNode>
+          <cost>1000</cost>
+        </sample.GraphLinkAL>
+      </adjList>
+    </sample.GraphNodeAL2>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+    <sample.GraphNodeAL2 reference="../sample.GraphNodeAL2/adjList/sample.GraphLinkAL/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode/adjList/sample.GraphLinkAL[2]/destNode"/>
+  </list>
+</object-stream>
